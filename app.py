@@ -1,4 +1,3 @@
-from flask import *
 from flask import request
 from flask import jsonify
 from flask import Flask, jsonify, request, redirect
