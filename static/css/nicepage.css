@@ -19626,7 +19626,7 @@ h6 {
 }
 .u-body {
   color: #111111;
-  background-color: #ffffff;
+  background-color: #EFE9DF; 
 }
 /*end-variables color*/
 /*begin-variables font*/
@@ -21921,12 +21921,12 @@ a.u-link.u-hover-palette-1:hover {
 .u-container-style.u-palette-1-light-1:before,
 .u-table-alt-palette-1-light-1 tr:nth-child(even) {
   color: #ffffff;
-  background-color: #a473f2;
+  background-color: #9b59d2;
 }
 .u-button-style.u-palette-1-light-1,
 .u-button-style.u-palette-1-light-1[class*="u-border-"] {
   color: #ffffff !important;
-  background-color: #a473f2 !important;
+  background-color: #9b59d2 !important;
 }
 .u-button-style.u-palette-1-light-1:hover,
 .u-button-style.u-palette-1-light-1[class*="u-border-"]:hover,
@@ -22074,12 +22074,12 @@ a.u-link.u-hover-palette-1-light-3:hover {
 .u-container-style.u-palette-1-base:before,
 .u-table-alt-palette-1-base tr:nth-child(even) {
   color: #ffffff;
-  background-color: #803bec;
+  background-color: #9B59D2;
 }
 .u-button-style.u-palette-1-base,
 .u-button-style.u-palette-1-base[class*="u-border-"] {
   color: #ffffff !important;
-  background-color: #803bec !important;
+  background-color: #724cae !important;
 }
 .u-button-style.u-palette-1-base:hover,
 .u-button-style.u-palette-1-base[class*="u-border-"]:hover,
@@ -23298,12 +23298,12 @@ a.u-link.u-hover-palette-4-light-3:hover {
 .u-container-style.u-palette-4-base:before,
 .u-table-alt-palette-4-base tr:nth-child(even) {
   color: #ffffff;
-  background-color: #7f51d6;
+  background-color: #9b59d2;
 }
 .u-button-style.u-palette-4-base,
 .u-button-style.u-palette-4-base[class*="u-border-"] {
   color: #ffffff !important;
-  background-color: #7f51d6 !important;
+  background-color: #9b59d2  !important;
 }
 .u-button-style.u-palette-4-base:hover,
 .u-button-style.u-palette-4-base[class*="u-border-"]:hover,
@@ -23604,7 +23604,7 @@ a.u-link.u-hover-palette-5-light-1:hover {
 .u-container-style.u-palette-5-light-2:before,
 .u-table-alt-palette-5-light-2 tr:nth-child(even) {
   color: #111111;
-  background-color: #d9dbdd;
+  background-color: #deccdf;
 }
 .u-button-style.u-palette-5-light-2,
 .u-button-style.u-palette-5-light-2[class*="u-border-"] {
@@ -24114,12 +24114,12 @@ a.u-link.u-hover-grey-light-3:hover {
 .u-container-style.u-white:before,
 .u-table-alt-white tr:nth-child(even) {
   color: #111111;
-  background-color: #ffffff;
+  background-color: #EFE9DF;
 }
 .u-button-style.u-white,
 .u-button-style.u-white[class*="u-border-"] {
   color: #111111 !important;
-  background-color: #ffffff !important;
+  background-color: #EFE9DF !important;
 }
 .u-button-style.u-white:hover,
 .u-button-style.u-white[class*="u-border-"]:hover,
@@ -24420,7 +24420,7 @@ a.u-link.u-hover-grey-5:hover {
 .u-container-style.u-grey-10:before,
 .u-table-alt-grey-10 tr:nth-child(even) {
   color: #111111;
-  background-color: #e5e5e5;
+  background-color: #EFE9DF;
 }
 .u-button-style.u-grey-10,
 .u-button-style.u-grey-10[class*="u-border-"] {
@@ -26623,7 +26623,7 @@ li.active > a.u-button-style.u-button-style.u-border-active-palette-1-light-3 {
 }
 .u-border-palette-1-base,
 .u-separator-palette-1-base:after {
-  border-color: #803bec;
+  border-color: #9B59D2;
   stroke: #803bec;
 }
 .u-button-style.u-border-palette-1-base {
@@ -28298,12 +28298,12 @@ li.active > a.u-button-style.u-button-style.u-border-active-grey-15 {
 .u-link.u-border-grey-15[class*="u-border-"] {
   border-color: #d9d9d9 !important;
 }
-.u-link.u-border-grey-15[class*="u-border-"]:hover {
+.u-link.u-border-grey-15[class*="u-border-"]:hover {x`
   border-color: #c3c3c3 !important;
 }
 .u-border-grey-25,
 .u-separator-grey-25:after {
-  border-color: #c0c0c0;
+  border-color: #EFE9DF;
   stroke: #c0c0c0;
 }
 .u-button-style.u-border-grey-25 {
@@ -33986,8 +33986,9 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-border-custom-color-4,
         .u-separator-custom-color-4:after
         {
-            border-color: #935ce8;
+            border-color: #EFE9DF;
             stroke: #935ce8;
+            border-radius: 4px;
         }
 
         .u-button-style.u-border-custom-color-4
@@ -34831,7 +34832,7 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-image:not(.u-shading) > .u-container-layout > blockquote,
         blockquote
         {
-        border-color: #803bec;
+        border-color: #9b59d2;
         }
         /** color-rules **/
 
