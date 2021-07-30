@@ -82,9 +82,9 @@ window.onscroll = function() {
   // 20 is an arbitrary number here, just to make you think if you need the prevScrollpos variable:
   if (currentScrollPos > 20) {
     // I am using 'display' instead of 'top':
-    document.getElementById("nav-scroll").style.display = "none";
+    document.getElementById("sec-8624").style.display = "none";
   } else {
-    document.getElementById("nav-scroll").style.display = "initial";
+    document.getElementById("sec-8624").style.display = "initial";
   }
 }
 
@@ -92,7 +92,7 @@ window.onscroll = function() {
 
 
 
-    <header id="nav-scroll" class="u-header u-valign-middle u-header" id="sec-8624" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><a href="Home.html#sec-b1b6" data-page-id="508795" class="u-image u-logo u-image-1" data-image-width="1920" data-image-height="907" title="Home">
+    <header style="position: absolute;" class="u-header u-valign-middle u-header" id="sec-8624" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><a href="Home.html#sec-b1b6" data-page-id="508795" class="u-image u-logo u-image-1" data-image-width="1920" data-image-height="907" title="Home">
         <img src= "{{ url_for('static',filename='images/Untitled.png') }}"
  class="u-logo-image u-logo-image-1" data-image-width="200.1772">
       </a><nav data-position="" class="u-align-right u-menu u-menu-dropdown u-offcanvas u-menu-1" data-responsive-from="XL">
@@ -1018,22 +1018,6 @@ function snackbar() {
 }
 </script>
   <div id="snackbar">Sending the message...</div>
-
-
-
-<script>
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-50px";
-  }
-  prevScrollpos = currentScrollPos;
-}
-</script>
-
 
   </body>
 </html>
